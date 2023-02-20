@@ -1,0 +1,171 @@
+  
+  body {
+   text-align: center;
+   font-family: "Audiowide", sans-serif;
+  }
+  header{
+    background: orange;
+    padding: 20px 0;
+}
+h1{
+  position: absolute;
+  text-align: left;
+  
+}
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.banner{
+  width: 100%;
+
+}
+.titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 1em;
+}
+.titulo-principal:first-line{
+  font-weight: bold;
+}
+nav li{
+   display: inline; 
+   margin: 0 0 0 15px;
+  
+} 
+
+nav {
+  position: absolute;
+  text-align: right;
+  top: 110px;
+  right: 0;
+  
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+nav a:hover {
+  color: red;
+  text-decoration: underline;
+
+  }
+  .titulos {
+    text-align: center;
+    border: solid;
+    
+  }
+  .principal{
+    padding: 3em 0;
+    background: white
+
+  }
+
+  .principal p {
+    text-align: center;
+    margin: 1em;
+    
+  }
+
+  .principal em{
+    font-size: 23px;
+    font-weight: bold;
+    font-style:italic;
+    
+  }
+
+  .principal strong {
+    font-size: 1em;
+    font-weight: bold;
+      
+  }
+  .utensilios{
+    width: calc(40% - 26px *6);
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+  .mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+  }
+  .mapa{
+    padding: 3em 0;
+    background: linear-gradient(45deg,green 15%,red,blue);
+  }
+  .mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+  }
+  .intens {
+    line-height: 1.5;
+
+}
+.intens:nth-child(2n){
+  font-weight: bold;
+}
+.intens:before{
+  content:"★";
+}
+
+.conteudo-beneficios{
+  width: 640px;
+  margin: 0 auto;
+}
+.lista-beneficios{
+  width:40%;
+  display: inline-block; 
+  vertical-align: top;
+
+}
+.imagem-beneficios{
+  width: 60%;
+  left: 0;
+
+}
+.beneficios{
+  margin:0;
+  padding: 1em 0;
+  background: orange;
+}
+ul{
+ display: inline;
+ vertical-align: top;
+ width: 25%;
+ margin-right:0%
+}
+
+.video{
+  display: block;
+  width: 500px;
+margin: 3em auto;
+}
+main >p{
+  background:red ;
+}
+img + p{
+  background: blue;
+}
+img ~ p{
+  background:yellow
+}
+.principal p:not(missao) {
+ background: white
+}
+footer {
+  text-align: center;
+  background: black;
+  padding: 35px 0;
+}
+.Copyright{
+  text-align: center;
+  color:#ffffff;
+  font-size: 13px;
+  margin: 30px 0;
+}
