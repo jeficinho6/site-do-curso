@@ -1,0 +1,120 @@
+<!DOCTYPE html5>
+<html leng="PT-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Contato</title>
+
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="contatostyle.css">
+
+</head>
+
+<body>
+
+    <header>
+
+    <div class="caixa">
+        <h1><img src="C:\sites\site1\img\logo.png" alt="logo da Barbearia" width="200" height="220"</h1>
+
+    <nav>  
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Produtos.html">Produtos</a></li>
+        <li><a href="Contato.html">Contato</a></li>
+
+    </ul>
+
+    </nav>
+
+    </div>
+
+    </header>
+    <main>
+<form>
+
+    <label for="nomesobrenome">Nome e SobreNome</label>
+    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" class="input-padrao" placeholder="SeuEmail@dominio.com"
+
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)xxxxx-xxxx">
+
+     <label for="mensagem">Mensagem</label>
+    <textarea cols="60" rows="10" id="mensagem" class="input-padrao" required></textarea>
+     <fieldset>
+        <legend>Como prefere Nosso Contato ?</legend>
+    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+    Email</label>
+
+    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+    Telefone</label>
+    
+    <label for="radio-whatsapp"><input type="radio" name="contato" value="whastsapp" id="radio-whatsapp" checked>Whastsapp</label>
+    
+     </fieldset>
+     
+    <fieldset>
+        <legend>Qual horario prefere ser atendido ?</legend>
+        <select>
+            <option>Tarde</option>
+            <option>Manhã</option>
+            <option>Noite</option>
+        </select>
+    </fieldset>
+
+     <label><input type="checkbox" class="checkbox" checked>Gotaria de recebe Nossas novidades por Email?</label></input>
+       
+
+    <input type="submit"  value="Envia formulario" class="enviar">
+</form>
+
+    <table>
+
+        <thead>
+
+        <tr>
+            <th>Dia</th>
+            <td>Horaio</td>
+        </tr>
+
+        </thead>
+
+        <tbody>
+    
+        <tr>
+            <td>Segunda</td>
+            <td>8h~20h</td>
+        </tr>
+        <tr>
+            <td>Quarta</td>
+            <td>8h~20h</td>
+        </tr>
+        <tr>
+            <td>Sexta</td>
+            <td>8h~20h</td>
+        </tr>
+        </tbody>
+
+      </table>
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <img src="C:\sites\site1\img\logo-branco.png" alt="Logo da Barbearia">
+        <p class="Copyright">&copy; copyigth Barbearia Aulura- 2023</p>
+
+    </footer>
+
+</body>
+
+</html>
